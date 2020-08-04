@@ -1,0 +1,67 @@
+/***************GENERAL***************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/***************HEADINGS***************/
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/***************TABLES***************/
+
+table {
+  margin: auto;
+  width: 56.25rem;
+}
+
+td {
+  font-weight: 300;
+}
+
+th {
+  background-color: coral;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+}
+
+table,
+td {
+  border: 1px solid coral;
+}
+
+tr td:last-child {
+  padding: 0.625rem;
+  text-align: left;
+}
+
+/***************CODE SNIPPETS***************/
+
+code {
+  background-color: rgb(228, 228, 228);
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9375rem;
+}
+
+/***************OTHER***************/
+
+p {
+  display: inline-block;
+}
+
+.large-th {
+  width: 7.4375rem;
+}
